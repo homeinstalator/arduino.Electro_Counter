@@ -2,7 +2,6 @@
 Перед загрузкой данной программы, неоходимо обнулмть eeprom, т.е. записать во все ячейки eeprom 0.
 */
 #include <EEPROM.h>
-
 volatile unsigned long counter = 746 ;  // Начальные показания
 volatile unsigned long newcounter = 0;
 unsigned long counter_max = 70000;  //Максимальное значения которое хранится в одном банке памяти
